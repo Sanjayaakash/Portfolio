@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanaka Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">⚡ Sanaka</div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#works" class="nav-link">My Works</a></li>
+        <li><a href="#contact" class="nav-link">Contact Me</a></li>
+      </ul>
+    </nav>
+    <a href="#contact" class="btn">Hire Me</a>
+  </header>
+
+  <section id="home" class="card hero fade-up">
+    <div class="content">
+      <h3>Welcome To My World 🌍</h3>
+      <h1>Hi, I'm <span>Sanjayaakash</span></h1>
+      <h2>I’m a <span class="typing"></span></h2>
+      <p>I craft clean UI and interactive digital experiences with pixel perfection.  
+      Passionate about blending creativity with code 🚀</p>
+      <a href="#works" class="btn pulse">View My Work →</a>
+    </div>
+    <div class="img profile glow h-[120px] w-[120px]">
+      <img style="display:flex;border-radius:50%;align-items: center; justify-content: center;" height="260px" width="250px" src="./Tanjiro.jpg" alt="">
+    </div>
+  </section>
+
+  <section id="about" class="card fade-up">
+    <div class="img profile flip"><img style="display:flex;border-radius:50%;align-items: center; justify-content: center;" height="260px" width="250px" src="./Tanjiro.jpg" alt=""></div>
+    <div class="content">
+      <h2>About Me</h2>
+      <p>I’m Sanjaya, a frontend developer who loves turning ideas into beautiful, user-friendly websites.  
+      Always experimenting with new tools, frameworks, and modern design patterns.</p>
+      <h3>Skills</h3>
+      <div class="skills">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="card fade-up">
+    <div class="content full">
+      <h2>My Works</h2>
+      <p>Transforming ideas into interactive experiences 👇</p>
+      <div class="carousel">
+        <div class="slides">
+          <div class="work-box">🌐 Portfolio Website <p>Personal brand showcase with animations</p></div>
+          <div class="work-box">📊 Dashboard Design <p>Data visualization and clean UI</p></div>
+          <div class="work-box">🤖 AI Chatbot UI <p>Interactive chatbot with modern design</p></div>
+        </div>
+        <button class="arrow left">❮</button>
+        <button class="arrow right">❯</button>
+        <div class="dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="card fade-up">
+    <div class="content full">
+      <h2>Contact Me</h2>
+      <p>Let’s collaborate! Reach out 👇</p>
+      <div class="contact-buttons">
+        <a href="mailto:neytsanjay@gmail.com" class="contact-btn">✉️ Email</a>
+        <a href="tel:+916381630000" class="contact-btn">📞 Phone</a>
+        <a href="https://www.linkedin.com/in/sanjayaakash-t-295451279" target="_blank" class="contact-btn">💼 LinkedIn</a>
+        <a href="https://github.com/Sanjayaakash" target="_blank" class="contact-btn">🐙 GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
